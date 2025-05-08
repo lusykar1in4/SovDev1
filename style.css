@@ -113,6 +113,10 @@ body {
 body{
     font-family: "Segoe UI", sans-serif;
   }
+  .hero-section img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
   table{
     border-collapse: collapse; /* Menggabungkan garis */
     width: 100%;
