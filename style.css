@@ -108,3 +108,22 @@ body {
     text-decoration: none;
   }
   
+
+/*About Us*/
+body{
+    font-family: "Segoe UI", sans-serif;
+  }
+  table{
+    border-collapse: collapse; /* Menggabungkan garis */
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid black; /* Garis di tiap sel */
+    padding: 8px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #FFCDB2;
+  }
