@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Transaksi Baru</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    
+    <main class="main">
+      <h1>Transaksi Baru</h1>
+      <div class="content">
+        <div class="order-summary">
+          <table>
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Qty</th>
+                <th>Harga</th>
+                <th>Total</th>
+              </tr>
+            </thead>
+            <tbody id="order-list">
+              <!-- Item akan ditambahkan di sini -->
+            </tbody>
+          </table>
+          <div class="total">
+            <span>Total Bayar</span>
+            <span id="total-bayar">Rp 0</span>
+          </div>
+          <div class="buttons">
+            <button class="btn yellow">Tunai</button>
+            <button class="btn yellow">Qris</button>
+            <button class="btn red" onclick="clearOrder()">Cancel Order</button>
+          </div>
+          <button class="confirm-btn">Confirm</button>
+        </div>
+
+        <div class="item-list" id="item-list">
+          <!-- Item akan di-generate oleh JavaScript -->
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
